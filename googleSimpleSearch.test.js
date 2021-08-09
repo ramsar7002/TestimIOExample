@@ -6,7 +6,7 @@ const { go, text, test, l, Locator, resize, click, type } = require('testim');
 // Import chai assertion library
 const { expect } = require('chai');
 Locator.set(require('./locators/locators.js'));
-//go('www.google.com');
+
 test('My first text validation', async () => {
   await go('google.com');
   await resize({
